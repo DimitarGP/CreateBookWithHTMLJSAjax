@@ -1,0 +1,42 @@
+header{
+    background-color: #DDD;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+header a:hover{
+    background: #AAA;
+}
+#loadingBox, #infoBox, #errorBox{
+    padding: 5px 10px;
+    border-radius: 3px;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #AAA;
+}
+#loadingBox {
+    background-color: #7CB3E9;
+}
+#infoBox {
+    background-color: #393;
+}
+#errorBox{
+    background-color: #F50;
+}
+
+main > section{
+    display: none;
+}
+footer{
+    background-color: #DDD;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-align: center;
+    text-size: 0.8em;
+}
